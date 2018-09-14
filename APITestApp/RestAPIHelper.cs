@@ -29,6 +29,13 @@ namespace APITestApp
             restRequest.AddQueryParameter("userId", userID);
             return restRequest;
         }
+        public static RestRequest CreateGetRequestWithParameters(string userID, string completed)
+        {
+            restRequest = new RestRequest(Method.GET);
+            restRequest.AddParameter("userId", userID)
+                .AddParameter("completed", completed); ;
+            return restRequest;
+        }
         public static RestRequest CreatePostRequestWithParameters(object obj)
         {
             restRequest = new RestRequest(Method.POST);

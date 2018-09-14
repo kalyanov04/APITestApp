@@ -24,7 +24,7 @@ namespace APITestApp.Features
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "GetUsersPosts.feature"
+#line 1 "CountUsersPosts.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]

@@ -66,6 +66,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AddNewUser.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\CountUsersCompletedTodos.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CountUsersCompletedTodos.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\DeleteUser.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -76,10 +81,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GetUserInfo.feature</DependentUpon>
     </Compile>
-    <Compile Include="Features\GetUsersPosts.feature.cs">
+    <Compile Include="Features\CountUsersPosts.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>GetUsersPosts.feature</DependentUpon>
+      <DependentUpon>CountUsersPosts.feature</DependentUpon>
     </Compile>
     <Compile Include="RestAPIHelper.cs" />
     <Compile Include="Features\APIResponse.feature.cs">
@@ -91,8 +96,10 @@
     <Compile Include="Steps\APIResponse.cs" />
     <Compile Include="Steps\DeleteUser.cs" />
     <Compile Include="Steps\GetUserInfo.cs" />
+    <Compile Include="Steps\CountUsersCompletedTodos.cs" />
     <Compile Include="Steps\GetUsersPosts.cs" />
     <Compile Include="Steps\AddNewUser.cs" />
+    <Compile Include="Todos.cs" />
     <Compile Include="User\Address.cs" />
     <Compile Include="User\Company.cs" />
     <Compile Include="User\Geo.cs" />
@@ -108,6 +115,10 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>APIResponse.feature.cs</LastGenOutput>
     </None>
+    <None Include="Features\CountUsersCompletedTodos.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CountUsersCompletedTodos.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\DeleteUser.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DeleteUser.feature.cs</LastGenOutput>
@@ -116,9 +127,9 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>GetUserInfo.feature.cs</LastGenOutput>
     </None>
-    <None Include="Features\GetUsersPosts.feature">
+    <None Include="Features\CountUsersPosts.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>GetUsersPosts.feature.cs</LastGenOutput>
+      <LastGenOutput>CountUsersPosts.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
