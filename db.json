@@ -39609,10 +39609,10 @@
   ],
   "todos": [
     {
-      "userId": 1,
+      "UserId": "1",
       "id": 1,
-      "title": "delectus aut autem",
-      "completed": false
+      "Title": "delectus aut autem",
+      "Completed": "false"
     },
     {
       "userId": 1,
@@ -41039,29 +41039,6 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
-    },
-    {
-      "Name": "Alex",
-      "Username": "kalyan",
-      "Email": "asd",
-      "Address": {
-        "Street": "ads",
-        "Suite": "asd",
-        "City": "ad",
-        "Zipcode": 33263,
-        "Geo": {
-          "Lat": -31.8129,
-          "Lng": 62.5342
-        }
-      },
-      "Phone": "(254)954-1289",
-      "Website": "demarco.info",
-      "Company": {
-        "Name": "Keebler LLC",
-        "CatchPhrase": "User-centric fault-tolerant solution",
-        "Bs": "revolutionize end-to-end systems"
-      },
-      "id": 12
     }
   ]
 }

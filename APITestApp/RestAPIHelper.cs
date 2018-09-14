@@ -42,6 +42,12 @@ namespace APITestApp
             restRequest.AddJsonBody(obj);
             return restRequest;
         }
+        public static RestRequest CreatePutRequestWithParameters(string p0, object obj)
+        {
+            restRequest = new RestRequest(p0, Method.PUT);
+            restRequest.AddJsonBody(obj);
+            return restRequest;
+        }
         public static RestRequest CreateDeleteRequest(string id)
         {
             restRequest = new RestRequest(id, Method.DELETE);

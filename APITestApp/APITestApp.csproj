@@ -86,6 +86,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CountUsersPosts.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\UpdateTodoStatus.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UpdateTodoStatus.feature</DependentUpon>
+    </Compile>
     <Compile Include="RestAPIHelper.cs" />
     <Compile Include="Features\APIResponse.feature.cs">
       <AutoGen>True</AutoGen>
@@ -99,6 +104,7 @@
     <Compile Include="Steps\CountUsersCompletedTodos.cs" />
     <Compile Include="Steps\GetUsersPosts.cs" />
     <Compile Include="Steps\AddNewUser.cs" />
+    <Compile Include="Steps\UpdateTodoStatus.cs" />
     <Compile Include="Todos.cs" />
     <Compile Include="User\Address.cs" />
     <Compile Include="User\Company.cs" />
@@ -130,6 +136,10 @@
     <None Include="Features\CountUsersPosts.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>CountUsersPosts.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\UpdateTodoStatus.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>UpdateTodoStatus.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

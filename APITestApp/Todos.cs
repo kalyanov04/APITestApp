@@ -9,12 +9,12 @@ namespace APITestApp
     public class Todos
     {
         string userId;
-        int id;
+        int Id;
         string title;
         string completed;
 
         public string UserId { get => userId; set => userId = value; }
-        public int Id { get => id; set => id = value; }
+        public int id { get => Id; set => Id = value; }
         public string Title { get => title; set => title = value; }
         public string Completed { get => completed; set => completed = value; }
 
@@ -25,7 +25,7 @@ namespace APITestApp
         }
         public Todos SetId(int id)
         {
-            Id = id;
+            this.id = id;
             return this;
         }
         public Todos SetTitle(string title)
